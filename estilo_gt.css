@@ -1,0 +1,169 @@
+	body {
+		color: #000;
+		background-image: url("imagens/barra_logo.jpeg.jpeg");
+		background-repeat: repeat-x;
+		margin-top: 33px;
+		background-color: #93c99b;
+		font-size: 21px;
+		line-height: 18px;/*altura da linha*/
+	}
+
+	* {
+		font-family: 'Fredoka', sans-serif;
+		font-weight: none;
+		font-size: large;
+	}
+
+	a:link {
+		color: #0f428a;
+		font-weight: bold;
+	}
+
+	a:visited {
+		color: #0f428a;
+		font-weight: bold;
+	}
+
+	a:hover {
+		color: #04b392;
+		font-weight: bold;
+	}
+
+	h1 {
+		size: 36px;
+		color: #0f428a;
+		border-bottom: solid medium #0f428a;
+		line-height: 38px;
+		font-style: italic;
+	}
+
+	h2 {
+		size: 22px;
+		color: #0f428a;
+		font-style: normal;
+		text-align: right;
+	}
+
+	h3 {
+		size: 16px;
+		color: #0f428a;
+		background-color: #c2dbff;
+		padding: 5px 5px; 
+	}
+
+	*p {
+		margin-right: flex;
+		margin-left: flex;
+	}
+
+	.caixa_texto {
+		text-align: justify;
+	}
+
+	nav {
+		font-weight: bolder;
+		font-size: larger;
+	}
+
+	#estrutura {
+		width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#menu {
+		background-image: url("imagens/logo2.png");
+		background-repeat: no-repeat;
+		background-position-x: 0px;
+		background-position-y: 50px;
+		padding-top: 105px;
+		padding-bottom: 5px;
+		padding-left: 250px;
+		display: flex;
+	}
+
+	#menu p a:link{
+		font-weight: bold;
+		color: #fff;
+		background-color: #41a334;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	#menu p a:visited{
+		font-weight: bold;
+		color: #fff;
+		background-color: #41a334;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	#menu p a:hover{
+		font-weight: bold;
+		color: #0f428a;
+		background-color: #71bf73;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	img {
+		margin: 10px;
+		padding: 10px;
+		border: solid 7px #468966; 
+		margin-left: flex;
+		margin-right:flex;
+		align-items: center;
+	}
+
+
+	table {
+		margin-left: auto;
+		margin-right: auto;
+		border: solid thin #9c5306;
+		color: #fff;
+		background-color: #2a2e24;
+		padding: 5px;
+	}
+
+	th {
+		color: #fff;
+		background-color: #468966;
+		text-align: left;
+		padding: 5px;
+	}
+
+	td {
+		background-color: #a106;
+		padding: 5px;
+		border: solid 1px #a6200c;
+	}
+
+	li {
+		list-style: url("imagens/lista.gif");
+		list-style-position: inside;
+	}
+
+	#box {
+		font-weight: bold;	
+		color: #0f428a;
+		background-color: #79c780;
+	}
+
+	.destaque {
+		font-size: 22px;
+		color: #0f428a;
+		background-color: #5aa660;
+	}
+
+	#footer {
+		width: 100%;
+		height: 50px;
+		position: static;
+		bottom: 0;
+		left: 0;
+		padding-top: 30px;
+		text-align: center;
+		background-color: #61a36b;
+	}
+
+	
